@@ -1,0 +1,20 @@
+{
+  "train_rows": 640284,
+  "test_rows": 160072,
+  "train_start": "2013-10-09 14:06:00",
+  "train_end": "2015-02-21 07:51:00",
+  "test_start": "2015-02-21 07:52:00",
+  "test_end": "2015-07-10 11:56:00",
+  "target_zero_percentage_train": 97.81,
+  "target_zero_percentage_test": 97.83,
+  "baseline": {
+    "MAE_W": 10.857,
+    "RMSE_W": 143.326,
+    "R2": -0.0058
+  },
+  "random_forest": {
+    "MAE_W": 11.989,
+    "RMSE_W": 103.809,
+    "R2": 0.4724
+  }
+}

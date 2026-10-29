@@ -1,0 +1,4 @@
+model,test_rows,MAE_W,RMSE_W,R2,features
+Zero baseline,160072,10.857,143.326,-0.0058,Always predict zero
+Random Forest: aggregate only,160072,11.989,103.809,0.4724,Aggregate power
+Random Forest: time-history features,156145,7.579,82.957,0.6013,"Aggregate, lags, rolling means, hour, weekday"

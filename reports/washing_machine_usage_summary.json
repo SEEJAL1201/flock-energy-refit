@@ -1,0 +1,54 @@
+[
+  {
+    "house": 1,
+    "channel": "Appliance5",
+    "one_minute_rows": 920091,
+    "missing_minutes": 116318,
+    "active_minutes_over_10w": 14924,
+    "active_percentage_of_valid_minutes": 1.86,
+    "mean_power_w": 10.83,
+    "peak_power_w": 2494.0,
+    "approx_energy_kwh": 145.128,
+    "potential_events": 408,
+    "output_file": "data\\processed\\house1_washing_machine_1min.csv"
+  },
+  {
+    "house": 2,
+    "channel": "Appliance2",
+    "one_minute_rows": 889078,
+    "missing_minutes": 218914,
+    "active_minutes_over_10w": 30996,
+    "active_percentage_of_valid_minutes": 4.63,
+    "mean_power_w": 18.08,
+    "peak_power_w": 2332.0,
+    "approx_energy_kwh": 201.975,
+    "potential_events": 312,
+    "output_file": "data\\processed\\house2_washing_machine_1min.csv"
+  },
+  {
+    "house": 3,
+    "channel": "Appliance6",
+    "one_minute_rows": 885095,
+    "missing_minutes": 100693,
+    "active_minutes_over_10w": 42034,
+    "active_percentage_of_valid_minutes": 5.36,
+    "mean_power_w": 28.93,
+    "peak_power_w": 2592.0,
+    "approx_energy_kwh": 378.247,
+    "potential_events": 670,
+    "output_file": "data\\processed\\house3_washing_machine_1min.csv"
+  },
+  {
+    "house": 5,
+    "channel": "Appliance3",
+    "one_minute_rows": 933593,
+    "missing_minutes": 87220,
+    "active_minutes_over_10w": 67655,
+    "active_percentage_of_valid_minutes": 7.99,
+    "mean_power_w": 31.54,
+    "peak_power_w": 2354.0,
+    "approx_energy_kwh": 444.917,
+    "potential_events": 881,
+    "output_file": "data\\processed\\house5_washing_machine_1min.csv"
+  }
+]

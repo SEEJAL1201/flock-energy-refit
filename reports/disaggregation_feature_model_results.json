@@ -1,0 +1,42 @@
+{
+  "train_rows": 622728,
+  "test_rows": 156145,
+  "train_start": "2013-10-09 14:21:00",
+  "train_end": "2015-02-21 07:51:00",
+  "test_start": "2015-02-21 07:52:00",
+  "test_end": "2015-07-10 11:56:00",
+  "features": [
+    "Aggregate",
+    "aggregate_lag_1",
+    "aggregate_lag_5",
+    "aggregate_lag_15",
+    "aggregate_rolling_mean_5",
+    "aggregate_rolling_mean_15",
+    "hour",
+    "day_of_week"
+  ],
+  "all_test_minutes": {
+    "samples": 156145,
+    "MAE_W": 7.579,
+    "RMSE_W": 82.957,
+    "R2": 0.6013
+  },
+  "active_minutes_over_10W": {
+    "samples": 2623,
+    "MAE_W": 259.18,
+    "RMSE_W": 547.326,
+    "R2": 0.5879
+  },
+  "actual_active_minutes": 2623,
+  "predicted_active_minutes": 7335,
+  "feature_importance": {
+    "Aggregate": 0.49048,
+    "aggregate_lag_1": 0.09975,
+    "aggregate_lag_5": 0.07502,
+    "aggregate_lag_15": 0.07118,
+    "aggregate_rolling_mean_5": 0.03518,
+    "aggregate_rolling_mean_15": 0.10161,
+    "hour": 0.10168,
+    "day_of_week": 0.0251
+  }
+}

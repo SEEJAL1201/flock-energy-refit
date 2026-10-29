@@ -1,0 +1,4 @@
+model,train_rows,test_rows,MAE_W,RMSE_W,R2
+Zero baseline,623098,155775,9.006,129.344,-0.0049
+Random Forest aggregate only,623098,155775,9.837,90.856,0.5042
+Random Forest time-history,623098,155775,7.476,82.097,0.5952

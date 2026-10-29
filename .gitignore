@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment and editor files
+.env
+.vscode/
+
+# Downloaded REFIT datasets
+data/raw/
+data/cleaned/
+
+# Generated processed datasets (large CSV files)
+data/processed/*.csv
+
+# Keep reports and plots available for GitHub
+# reports/

@@ -1,0 +1,64 @@
+{
+  "input_rows": 8518763,
+  "input_rows_by_file": {
+    "RAW_House1_Part1.csv": 4377877,
+    "RAW_House1_Part2.csv": 4140886
+  },
+  "invalid_timestamp_rows_removed": 0,
+  "exact_duplicate_rows_removed": 595940,
+  "repeated_timestamp_groups": 162394,
+  "negative_power_values": {
+    "Aggregate": 0,
+    "Appliance1": 0,
+    "Appliance2": 0,
+    "Appliance3": 0,
+    "Appliance4": 0,
+    "Appliance5": 0,
+    "Appliance6": 0,
+    "Appliance7": 0,
+    "Appliance8": 0,
+    "Appliance9": 0
+  },
+  "extreme_appliance_values_above_4000W": {
+    "Appliance1": 816,
+    "Appliance2": 36,
+    "Appliance3": 117,
+    "Appliance4": 1733,
+    "Appliance5": 209,
+    "Appliance6": 35,
+    "Appliance7": 374,
+    "Appliance8": 162,
+    "Appliance9": 46
+  },
+  "extreme_aggregate_values_above_4000W": 37948,
+  "original_intervals_over_60_seconds": 4037,
+  "short_gap_minutes_interpolated": {
+    "Aggregate": 1486,
+    "Appliance1": 2702,
+    "Appliance2": 2830,
+    "Appliance3": 1550,
+    "Appliance4": 1639,
+    "Appliance5": 3924,
+    "Appliance6": 1410,
+    "Appliance7": 1495,
+    "Appliance8": 2210,
+    "Appliance9": 2463
+  },
+  "long_outage_minutes": 113555,
+  "output_minutes": 920031,
+  "output_start": "2013-10-09 14:06:00",
+  "output_end": "2015-07-10 11:56:00",
+  "missing_power_values_after_cleaning": {
+    "Aggregate": 113647,
+    "Appliance1": 114992,
+    "Appliance2": 115684,
+    "Appliance3": 115036,
+    "Appliance4": 114508,
+    "Appliance5": 119632,
+    "Appliance6": 114558,
+    "Appliance7": 113653,
+    "Appliance8": 114570,
+    "Appliance9": 210505
+  },
+  "aggregate_extreme_flagged_minutes": 6602
+}

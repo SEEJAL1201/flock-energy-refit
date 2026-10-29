@@ -1,0 +1,14 @@
+{
+  "source_file": "data\\processed\\house1_clean_1min.csv",
+  "output_file": "data\\processed\\house1_disaggregation_1min.csv",
+  "total_rows": 920031,
+  "valid_rows": 800356,
+  "excluded_rows": 119675,
+  "start_time": "2013-10-09 14:06:00",
+  "end_time": "2015-07-10 11:56:00",
+  "aggregate_missing": 113647,
+  "washing_machine_missing": 119632,
+  "aggregate_max_w": 24000.0,
+  "washing_machine_max_w": 2494.0,
+  "target_zero_percentage": 97.81
+}

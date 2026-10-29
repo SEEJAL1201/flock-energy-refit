@@ -1,0 +1,23 @@
+{
+  "all_test_minutes": {
+    "samples": 160072,
+    "MAE_W": 11.989,
+    "RMSE_W": 103.809,
+    "R2": 0.4724
+  },
+  "actual_active_minutes_over_10W": {
+    "samples": 2983,
+    "MAE_W": 369.261,
+    "RMSE_W": 684.723,
+    "R2": 0.3864
+  },
+  "actual_inactive_minutes_at_or_below_10W": {
+    "samples": 157089,
+    "MAE_W": 5.205,
+    "RMSE_W": 45.583,
+    "R2": -12380.822
+  },
+  "active_test_minutes": 2983,
+  "active_test_percentage": 1.86,
+  "predicted_active_minutes_over_10W": 8961
+}
